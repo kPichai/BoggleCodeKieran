@@ -1,9 +1,10 @@
-Name: YOUR NAME HERE
+Name: Kieran Pichai
 
-| Date    |  Time  |                                     Update |
-|:--------|:------:|-------------------------------------------:|
-| April 5 | 9-10pm | I tried to write abstract, efficient code. |
-|         |        |                                            |
+| Date  |       Time        |                                                                                                                                                                                                                                                                                                                                                                                                                                                             Update |
+|:------|:-----------------:|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Jan 7 | 11:00am - 11:30am | During this class period I had some initial thoughts about the project and looked through my test. On my test my approach had been to go through each spot in the board until you find the starting letter of the current word you are searching for, then you would BFS to success or failure to see if you got a match. And while this would be simple to code and would thoroughly work I'm not convinced that its the most efficient approach to this problem. |
+| Jan 7 | 11:30am - 11:55am |                                                                            During this session of the class I ended up talking with my peers about solutions. One idea was to generate permutations of the board and store them and then to hash the board in some way such that you could hash each word and try to rabin-karp fingerprint search for a match. However, after some discussion this was shown to be a pretty innapropriate aproach to the problem. |
+| Jan 8 |  8:00pm - 8:20pm  |                                                                                    During this session I mostly brainstormed more solutions, one such idea I had was to utilize a trie (or tst), but most likely a trie, to store the dictionary then to BFS from different starting points in the board and check the TST or trie each time. This has many unnecessary tricks inherently but if optimized / thought about more could be made much more efficient. |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
